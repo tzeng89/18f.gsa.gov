@@ -528,6 +528,69 @@ $tiniest: new-breakpoint(max-width 390px);
 
 // PIF
 //********************************************************
+.pif_bare {
+	@extend %section-padding;
+	h2 {
+		font-size: 1.85em;
+		padding-top: 40px;
+		padding-bottom: 20px;
+		@include media($smallest) {
+			font-size: 1.65em;
+			padding-top: 10px;
+		}
+	}
+	h3 {
+		font-family: $base-font-family;
+		font-weight: normal;
+		font-size: 1.4em;
+		padding-bottom: 4px;
+		@include media($smallest) {
+			font-size: 1.2em;
+		}
+	}
+	h4 {
+		font-family: $base-font-family;
+		font-weight: normal;
+		font-size: 1.2em;
+		padding-bottom: 4px;
+		@include media($smallest) {
+			font-size: 1em;
+		}
+	}
+	p {
+		margin-bottom: 1.1em;
+	}
+}
+
+.pif-logo-container {
+	@include span-columns(2);
+	@include media($small){
+		@include span-columns(3);
+		padding-left: 20px;
+		width: 200px;
+	}
+	@include media($smallest) {
+		@include span-columns(3);
+		padding-left: 20px;
+		padding-bottom: 20px
+	}
+
+	a {
+		text-decoration: none;
+		@include media($tiny) {
+			@include span-columns(12);
+		}
+	}
+	@include media($tiny) {
+		@include span-columns(12);
+		padding-left: 10px;
+		padding-bottom: 20px;
+
+	}
+	margin-top: -3px;
+	padding-bottom: 20px;
+}
+
 .pif-logo {
 	img {
 		margin-bottom: 20px;
@@ -537,26 +600,39 @@ $tiniest: new-breakpoint(max-width 390px);
 		top: 50px;
 		left: 50px;
 		z-index: 20;
-	  	@include media($smaller) {
-	  		height: 100px;
-			width: 100px;
-			top: 40px;
-			left: 20px;
-  		}
-  	}
-  	@include media($smallest) {
-  		height: 75px;
-		width: 75px;
-  	}
-  	@include media($tiny) {
-		top: 73px;
-  	}
-  	@include media($tinier) {
-		top: 66px;
-		left: 0px;
-  	}
+    }
+    @include media($small) {
+	      height: 150px;
+	      width: 150px;
+
+	}
+    @include media($smaller) {
+	      height: 150px;
+	      width: 150px;
+	      top: 50px;
+	      left: 50px;
+	}
+    @include media($smallest) {
+      	height: 150px;
+    	width: 150px;
+    }
+    @include media($tiny) {
+    	height: 150px;
+    	width: 150px;    	
+    }
+    @include media($tinier) {
+	    height: 150px;
+    	width: 150px;
+
+    }
+    @include media($tiniest) {
+	    height: 150px;
+    	width: 150px;
+    }
 }
+
 .pif-nav-bar {
+
 	li {
 		padding-left: 20px;
 		&:first-of-type{
@@ -564,6 +640,19 @@ $tiniest: new-breakpoint(max-width 390px);
 		}
 		&:last-of-type {
 			padding-top: 20px;
+			padding-bottom: 20%;
+		}
+		@include media($smallest){
+			margin-left: -2px;
+		}
+		@include media($tiny){
+			margin-left: -2px;
+		}
+		@include media($tinier){
+			margin-left: -4px;
+		}
+		@include media($tiniest){
+			margin-left: -6px;
 		}
 		a {
 			text-decoration: underline;
@@ -594,10 +683,17 @@ $tiniest: new-breakpoint(max-width 390px);
 
 
 .pif-content {
-	@include span-columns(9);
+	@include span-columns(10);
 	@include omega();
+	@include media($small){
+		@include span-columns(9);
+	}
+	@include media($smaller){
+		@include span-columns(8);
+	}
+
 	@include media($smallest) {
-		@include span-columns(10);
+		@include span-columns(8);
 	}
 	@include media($tiny) {
 		@include span-columns(12);
