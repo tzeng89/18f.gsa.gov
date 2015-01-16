@@ -1,10 +1,9 @@
 ---
-permalink: /join/
+permalink: /we-are-growing/
 layout: bare
-title: Join
 ---
 
-#Join 18F
+#What is 18F?
 
 
 Technology changes fast. Americans have grown to expect fast, personalized information and services from the websites and apps they use on a daily basis. But with a shortage of in-house experts, budget limitations, and slow procurement processes, it can be hard for the Federal Government to meet those same expectations. This is where we (and hopefully you) come in.
