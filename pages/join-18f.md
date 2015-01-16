@@ -1,10 +1,10 @@
 ---
 permalink: /join/
 layout: bare
+title: Join
 ---
 
-What is 18F?
-============
+#Join 18F
 
 
 Technology changes fast. Americans have grown to expect fast, personalized information and services from the websites and apps they use on a daily basis. But with a shortage of in-house experts, budget limitations, and slow procurement processes, it can be hard for the Federal Government to meet those same expectations. This is where we (and hopefully you) come in.
@@ -20,7 +20,7 @@ We've embarked on a mission to transform the way the U.S. Government builds and 
 
 We’re transforming government from the inside out, creating cultural change by working in partnership with teams inside government agencies who want to create great services for the American people. 
 
-## Our Strategy is Delivery
+**Our Strategy is Delivery**
 
 By delivering software in partnership with agencies, we teach by doing.  If there is process or policy that gets in the way of doing great work using modern practices, we work to fix that, and if needed, we can escalate roadblocks to the top of our agency or even to the White House.  
 
