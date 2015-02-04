@@ -1,10 +1,16 @@
 ---
 permalink: /we-are-growing/
 layout: bare
+scripts:
+- //cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js
+- //cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js
+- //cdnjs.cloudflare.com/ajax/libs/topojson/1.6.18/topojson.min.js
+- /assets/js/map.js
+stylesheets:
+- /assets/css/map.css
 ---
 
-#What is 18F?
-
+# What is 18F?
 
 Technology changes fast. Americans have grown to expect fast, personalized information and services from the websites and apps they use on a daily basis. But with a shortage of in-house experts, budget limitations, and slow procurement processes, it can be hard for the Federal Government to meet those same expectations. This is where we (and hopefully you) come in.
 
@@ -19,25 +25,23 @@ We've embarked on a mission to transform the way the U.S. Government builds and 
 
 We’re transforming government from the inside out, creating cultural change by working in partnership with teams inside government agencies who want to create great services for the American people. 
 
-**Our Strategy is Delivery**
+## Our Strategy is Delivery
 
 By delivering software in partnership with agencies, we teach by doing.  If there is process or policy that gets in the way of doing great work using modern practices, we work to fix that, and if needed, we can escalate roadblocks to the top of our agency or even to the White House.  
 
 In addition to working with agency partners to create modern web products, we offer a host of other services which empower agencies to create their own digital services teams. These include workshops in agile project management and acquisition, conducting API usability testing for agency data services, and exporting our best practices in hiring and product deployment. 
 
-	
-
-**Our Work**
+## Our Work
 
 18F believes in [transparent, collaborative work](http://18fblog.tumblr.com/post/93415834296/working-in-public-from-day-1) and accordingly all of our projects are open source and available to the public on [GitHub](https://github.com/18F). Our development team comprises over 50 technologists, including software developers, user experience designers, product managers, and more. We employ agile and lean methodologies to streamline delivery and ensure our products meet the needs of the people. To learn more about our current projects, visit our [GitHub organization](https://github.com/18F) or the [18F dashboard](http://18f.gsa.gov/dashboard), where we maintain a list of all of our current projects and their status.  
 
-**Where Are We?**
+## Where Are We?
 
-You can find 18F  in DC, San Francisco, Chicago, Dayton, and New York.
+You can find 18F in [DC](#DCA), [San Francisco](#SFO), [Chicago](#CHI), [Dayton](#DAY), and [New York](#NYC).
 
-<Neat map graphic like on our DC whiteboard goes here>
+<div id="map"></div>
 
-**Our Team**
+## Our Team
 
 Our rapidly growing team is home to a variety of roles, including these:  
 
