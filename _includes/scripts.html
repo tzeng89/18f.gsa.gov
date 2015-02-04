@@ -51,3 +51,7 @@
 
 <!-- Digital Analytics Program roll-up -->
 <script src="/assets/js/federated-analytics.js"></script>
+
+{% for url in page.scripts %}
+<script src="{{ url }}"></script>
+{% endfor %}
