@@ -1,13 +1,14 @@
 ---
 permalink: /we-are-growing/
 layout: bare
-scripts:
-- //cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js
-- //cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js
-- //cdnjs.cloudflare.com/ajax/libs/topojson/1.6.18/topojson.min.js
-- /assets/js/map.js
-stylesheets:
-- /assets/css/map.css
+# these are for the map:
+# scripts:
+# - //cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js
+# - //cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js
+# - //cdnjs.cloudflare.com/ajax/libs/topojson/1.6.18/topojson.min.js
+# - /assets/js/map.js
+# stylesheets:
+# - /assets/css/map.css
 ---
 
 # What is 18F?
@@ -37,9 +38,7 @@ In addition to working with agency partners to create modern web products, we of
 
 ## Where Are We?
 
-You can find 18F in [DC](#DCA), [San Francisco](#SFO), [Chicago](#CHI), [Dayton](#DAY), and [New York](#NYC).
-
-<div id="map"></div>
+You can find 18F in DC, San Francisco, Chicago, Dayton, and New York.
 
 ## Our Team
 
