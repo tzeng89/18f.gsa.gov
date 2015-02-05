@@ -44,42 +44,36 @@ You can find 18F in DC, San Francisco, Chicago, Dayton, and New York.
 
 Our rapidly growing team is home to a variety of roles, including these:  
 
-<table>
-  <tr>
-    <td> 
-      <b>Software Makers</b>
-        <br>Using modern, open source web frameworks and tools, our front and back end developers work in small, cross-functional teams, close to user research and product prioritization, to produce functional, scalable web services. 
-    </td>
-    <td> 
-      <b>Experience Design & Research</b>
-        <br>Our designers research user needs and communicate them to  developers, product leads, and agency partners. They create research-based personas, understand information architecture, visualize scenarios, and design workflows based on user feedback. 
-    </td>
-    <td> 
-      <b>DevOps</b> 
-        <br>Our DevOps team provides scalable, deployable cloud services for development teams at 18F and other agencies.  We conscientiously automate tasks to streamline operations.</td>
-  </tr>
-  <tr>
-    <td> 
-      <b>Visual and Interaction Design</b>
-        <br>Our visual designers create wireframes, HTML prototypes, Photoshop mocks, and more, based on a firm understanding of user needs. They do what it takes to communicate and sometimes implement these solutions. 
-    </td>
-    <td> 
-      <b>Writing & Content Strategy</b>
-        <br>Sometimes called content designers, they assess current content needs and work closely with design researchers and  agency partners to strategize and write application copy.
-    </td>
-    <td> 
-      <b>Product Management</b>
-        <br>Product Leads work closely with agency partners to define and prioritize product value in agile cycles. They remove blocks for the team, create and groom backlogs, champion user testing and ensure we are always shipping valuable code.
-    </td>
-  </tr>
-  <tr>
-    <td> 
-      <b>Wildcard!</b>
-        <br>Not everyone fits into a predefined box. Cross-disciplinary innovators that are passionate about technology and improving the government experience are a big part of 18F.
-    </td>
-  </tr>
-</table>
-
+<div class="roles">
+  <div class="role" id="software-makers">
+    <h3>Software Makers</h3>
+    <p>Using modern, open source web frameworks and tools, our front and back end developers work in small, cross-functional teams, close to user research and product prioritization, to produce functional, scalable web services.</p>
+  </div>
+  <div class="role" id="ux-research">
+    <h3>Experience Design &amp; Research</h3>
+    <p>Our designers research user needs and communicate them to  developers, product leads, and agency partners. They create research-based personas, understand information architecture, visualize scenarios, and design workflows based on user feedback.</p>
+  </div>
+  <div class="role" id="devops">
+    <h3>DevOps</h3>
+    <p>Our DevOps team provides scalable, deployable cloud services for development teams at 18F and other agencies.  We conscientiously automate tasks to streamline operations.</p>
+  </div>
+  <div class="role" id="visual-interaction">
+    <h3>Visual and Interaction Design</h3>
+    <p>Our visual designers create wireframes, HTML prototypes, Photoshop mocks, and more, based on a firm understanding of user needs. They do what it takes to communicate and sometimes implement these solutions. </p>
+  </div>
+  <div class="role" id="writing-content">
+    <h3>Writing &amp; Content Strategy</h3>
+    <p>Sometimes called content designers, they assess current content needs and work closely with design researchers and  agency partners to strategize and write application copy.</p>
+  </div>
+  <div class="role" id="product-management">
+    <h3>Product Management</h3>
+    <p>Product Leads work closely with agency partners to define and prioritize product value in agile cycles. They remove blocks for the team, create and groom backlogs, champion user testing and ensure we are always shipping valuable code.</p>
+  </div>
+  <div class="role" id="wildcard">
+    <h3>Wildcard!</h3>
+    <p>Not everyone fits into a predefined box. Cross-disciplinary innovators that are passionate about technology and improving the government experience are a big part of 18F.</p>
+  </div>
+</div>
 
 **18F is an Equal Opportunity Employer**
 
