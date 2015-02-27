@@ -19,11 +19,12 @@ branches:
   - production
 deploy:
   provider: s3
-  access_key_id: AKIAIENI7FDZ2GUQ7LIQ
+  access_key_id: AKIAI4LCAXVBDV5DIESQ
   secret_access_key:
-    secure: QUhDxlyHYj0pILVitMcWH6S4RrxH/tdX0f0KldYOSvLZdXtGIwTWbfFh3LOpiN4ijh6tA4rEboqChpHq4MhL8OmRmOQPGyMmYvWjOau3O0vHy0nXISLOrTFi6sZQZTk93XP4E0xCyqUq/x8eIP0GCNDQtIZjMU7yLfIejcZHeLM=
+    secure: O/4NyKjbM9zFJSFdXbk9lZiaHtUEhtfTRZO3Ryeb+iQi+UCDDzD6N0gK9SwdzxGmAUkWmYKfH8ho4jTNpX/lwds6nh/2qSzAq2FKI8y7sj2vBABXFdvuehn1MBrxeZ4ZttLzSSdqFw9NWfQzFm8fdWfxI+wo2ony4BEPcUaCYjM=
   bucket: 18f-site-ci-build
   local-dir: _site
+  upload-dir: $TRAVIS_COMMIT
   acl: public_read
   on:
     repo: 18F/18f.gsa.gov
