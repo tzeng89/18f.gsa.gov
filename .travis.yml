@@ -29,3 +29,8 @@ deploy:
   acl: public_read
   on:
     repo: 18F/18f.gsa.gov
+    brnaches: 
+    - staging
+    - production
+    - redeploy
+  skip_cleanup: true
