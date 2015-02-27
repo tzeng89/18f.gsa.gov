@@ -1,23 +1,29 @@
 language: ruby
 rvm:
-  - 2.2.0
-
+- 2.2.0
 sudo: false
 git:
   submodules: false
-
-script: ./go ci_build
-
+script: "./go ci_build"
 notifications:
   email:
     recipients:
-      - eric.mill@gsa.gov
-      - hillary.hartley@gsa.gov
-      - gregory.boone@gsa.gov
+    - eric.mill@gsa.gov
+    - hillary.hartley@gsa.gov
+    - gregory.boone@gsa.gov
     on_success: change
     on_failure: change
-
 branches:
   only:
-    - staging
-    - production
+  - staging
+  - production
+deploy:
+  provider: s3
+  access_key_id: AKIAIENI7FDZ2GUQ7LIQ
+  secret_access_key:
+    secure: QUhDxlyHYj0pILVitMcWH6S4RrxH/tdX0f0KldYOSvLZdXtGIwTWbfFh3LOpiN4ijh6tA4rEboqChpHq4MhL8OmRmOQPGyMmYvWjOau3O0vHy0nXISLOrTFi6sZQZTk93XP4E0xCyqUq/x8eIP0GCNDQtIZjMU7yLfIejcZHeLM=
+  bucket: 18f-site-ci-build
+  local-dir: _site
+  acl: public_read
+  on:
+    repo: 18F/18f.gsa.gov
