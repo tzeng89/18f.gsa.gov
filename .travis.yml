@@ -17,6 +17,7 @@ branches:
   only:
   - staging
   - production
+  - redeploy
 deploy:
   provider: s3
   access_key_id: AKIAI4LCAXVBDV5DIESQ
