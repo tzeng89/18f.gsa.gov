@@ -1,23 +1,20 @@
 language: ruby
 rvm:
-  - 2.2.0
-
+- 2.2.0
 sudo: false
 git:
   submodules: false
-
-script: ./go ci_build
-
+script: "./go ci_build"
 notifications:
   email:
     recipients:
-      - eric.mill@gsa.gov
-      - hillary.hartley@gsa.gov
-      - gregory.boone@gsa.gov
+    - eric.mill@gsa.gov
+    - hillary.hartley@gsa.gov
+    - gregory.boone@gsa.gov
     on_success: change
     on_failure: change
-
+  webhooks: http://project-monitor.cf.18f.us/projects/18f-gsa-gov/status
 branches:
   only:
-    - staging
-    - production
+  - staging
+  - production
