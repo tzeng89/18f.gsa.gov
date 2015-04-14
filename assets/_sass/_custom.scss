@@ -728,6 +728,11 @@ $tiniest: new-breakpoint(max-width 390px);
 		padding-top: 15px;
 	}
 }
+.sortable {
+	li {
+		display: inline;
+	}
+}
 .bio {
 	@include span-columns(3 of 12);
 	margin: 1.5em 0 .5em 1.5%;
